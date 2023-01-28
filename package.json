@@ -1,0 +1,14 @@
+{
+	"name": "node-js-crash-course",
+	"version": "1.0.0",
+	"description": "NodeJS crash course",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "zeeshan ahmad <zeeshnhmd.1@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"cli-color": "^2.0.3"
+	}
+}
