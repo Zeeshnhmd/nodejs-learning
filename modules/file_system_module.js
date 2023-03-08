@@ -26,6 +26,17 @@ fs.writeFile(
 		if (err) {
 			console.log(color.red(`Something went wrong ${err}`));
 		}
+		//append file
+		fs.appendFile(
+			path.join(__dirname, 'test', 'test.txt'),
+			'More data',
+			(err) => {
+				if (err) {
+					console.log(err);
+				}
+				console.log('Data appended');
+			}
+		);
 		console.log(color.green('File created successfully'));
 	}
 );
