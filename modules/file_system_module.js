@@ -42,3 +42,12 @@ fs.writeFile(
 );
 
 //when you run the above code again (create file) it not throw an error what it does is that it deletes the existing file and create a new file again.
+
+//Read file
+fs.readFile(path.join(__dirname, 'test', 'test.txt'), (err, data) => {
+	if (err) {
+		console.log(err);
+	}
+	const content = Buffer.from(data);
+	console.log(content.toString());
+});
