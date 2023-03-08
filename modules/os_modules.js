@@ -15,3 +15,6 @@ console.log(os.cpus());
 
 // Free memory
 console.log(color.bgWhite(`Free Memory: ${os.freemem()}`));
+
+// Total Memmory
+console.log(`Total Memory: ${os.totalmem()}`);
