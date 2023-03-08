@@ -51,3 +51,11 @@ fs.readFile(path.join(__dirname, 'test', 'test.txt'), (err, data) => {
 	const content = Buffer.from(data);
 	console.log(content.toString());
 });
+
+// Alternative for Read file
+fs.readFile(path.join(__dirname, 'test', 'test.txt'), 'utf-8', (err, data) => {
+	if (err) {
+		console.log(err);
+	}
+	console.log(data);
+});
