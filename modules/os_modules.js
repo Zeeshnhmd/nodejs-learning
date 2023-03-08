@@ -9,3 +9,6 @@ console.log(color.bgMagenta(`OS Platform: ${os.platform}`));
 
 // OS architecture
 console.log(color.bgCyanBright(`OS architecture: ${os.arch()}`));
+
+// CPU details
+console.log(os.cpus());
