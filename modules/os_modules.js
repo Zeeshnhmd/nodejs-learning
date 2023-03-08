@@ -12,3 +12,6 @@ console.log(color.bgCyanBright(`OS architecture: ${os.arch()}`));
 
 // CPU details
 console.log(os.cpus());
+
+// Free memory
+console.log(color.bgWhite(`Free Memory: ${os.freemem()}`));
