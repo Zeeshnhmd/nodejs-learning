@@ -18,3 +18,6 @@ console.log(color.bgWhite(`Free Memory: ${os.freemem()}`));
 
 // Total Memmory
 console.log(`Total Memory: ${os.totalmem()}`);
+
+// Uptime
+console.log(`Up time: ${os.uptime()}`);
